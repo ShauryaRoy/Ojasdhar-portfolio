@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbarhead from'./Components/Navbar'
+import Home from './Components/Home'
+import About from './Components/About'
+import Work from './Components/Work'
+import Contact from "./Components/Contact"
+import Background from "./Components/Background"
+import {Routes,Route } from 'react-router-dom'
+// import particlesJS from 'particles.js'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Background></Background>
+    <main>
+      <Routes>
+        <Route path = "/" exact element={<><Navbarhead/><Home/></>}/>
+        <Route path = "/about" element ={<><About/></>}/>
+        <Route path = "/work" element = {<><Navbarhead/><Work/></>}/>
+        <Route path = "/contact"  element = {<><Navbarhead/><Contact/></>}/>
+       </Routes>
+    </main>
+    </>
   );
 }
 
