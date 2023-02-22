@@ -1,0 +1,10 @@
+.portfolio-head{
+    color: aliceblue;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 5em;
+}
+.portfolio-head>span{
+    color: aqua;
+}

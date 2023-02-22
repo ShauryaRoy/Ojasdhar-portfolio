@@ -1,0 +1,143 @@
+/* @media only screen and (max-width: 1920px)and (min-width:1920px){ */
+    .home-background{
+        position: absolute;
+        top: 13em;
+        right: 75em;
+    }
+    .name > h1> h1{
+        font-size: 2em;
+    }
+    .name{
+        color: aliceblue;
+        
+        position: absolute;
+        width: 40em;
+    }
+    .home-background > h1{
+        display: inline-block;
+    }
+    .surname{
+        color: #30e6e2;
+    }
+    .static-text{
+        display: grid;
+        color: whitesmoke;
+        position: absolute;
+        right: 50em;
+    }
+    .wrapper {
+        height: 45em;
+        position: absolute;
+        /*This part is important for centering*/
+        display: grid;
+        place-items: center;
+      }
+      
+      .typing-demo {
+        position: absolute;
+        left: -3em;
+        top: 9em;
+        color: aliceblue;
+        display: grid;
+        width: 23em;
+        animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+        font-family: monospace;
+        font-size: 2em;
+      }
+      .getintouch > button{
+        background-color: #30e6e2;
+        font-family: monospace;
+        font-size: 1em;
+        border-radius: 30%;
+        height: 4em;
+        width: 8em;
+    }
+    .getintouch{
+        position: absolute;
+        top: 10em;
+        left: 10em;
+    }
+/* } */
+
+/* @media only screen and (max-width: 992px){ */
+    /* .home-background{
+        position: relative;
+        left: 10%;
+    }
+    
+    .name{
+        color: aliceblue;
+        position: relative;
+        top: 8em;
+        right: 1em;
+        width: 40em;
+    }
+    .home-background > h1{
+        display: inline-block;
+    }
+    .surname{
+        color: #30e6e2;
+    }
+    .static-text{
+        display: grid;
+        color: whitesmoke;
+        position: absolute;
+        right: 50em;
+    }
+    .wrapper {
+        height: 45em;
+        display: grid;
+        place-items: center;
+      }
+      
+      .typing-demo {
+        color: aliceblue;
+        display: grid;
+        width: 23em;
+        animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+        font-family: monospace;
+        font-size: 2em;
+      }
+      .getintouch > button{
+        background-color: #30e6e2;
+        font-family: monospace;
+        font-size: 1em;
+        border-radius: 30%;
+        height: 4em;
+        width: 8em;
+    } */
+/* } */
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) { */
+    /* .home-background{
+        position: relative;
+        align-items: center;
+        place-content: center;
+        font-size: 80%;
+    }
+    .wrapper{
+        position: relative;
+        right: 10%;
+        font-size: 60%;
+    }
+    .getintouch > button{
+        background-color: #30e6e2;
+        font-family: monospace;
+        font-size: 1em;
+        border-radius: 30%;
+        height: 4em;
+        width: 8em;
+    }
+    .getintouch{
+        position: absolute;
+        top: 14em;
+        right: 50%;
+    } */
+/* } */
