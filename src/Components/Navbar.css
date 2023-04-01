@@ -1,44 +1,6 @@
-/* @media only screen and (max-width: 1536px) { */
-    /* .navbar-title > td, th {
-        position: relative;
-        display: inline-block;
-        text-align: left;
-        color: aliceblue; 
-        padding-left: 6em;
-        border-collapse: separate;
-    
-    }
-    .navbar-title{
-        position: absolute;
-        color: aliceblue;
-        width: 36em;
-        top: -20em;
-    }
-   
-    .navbar-title :hover{
-        color: #30e6e2;
-        text-decoration: none;
-    }
-    .navbar-table{
-        position: relative;
-        width: 20em;
-        height: 1em;
-    }
-    .navbar-menu{
-        color: aliceblue;
-        text-decoration: solid black;
-    }
-    
-    .navbar-name{
-        position: relative;
-        color: aliceblue;
-        width: 0%;
-} */
-/* } */
-
-/* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) { */
-    
+.navbar-title{
+    display: grid;
+}
     .navbar-title > td, th {
         position: relative;
         display: inline-block;

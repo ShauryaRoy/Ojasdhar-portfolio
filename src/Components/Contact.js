@@ -31,7 +31,7 @@ function Contact() {
   
     
   
-  <button class="btn btn-primary" type="submit">Submit form</button>
+  <button class="btn btn-primary submit-button" type="submit">Submit form</button>
 </form>
     </>
   )

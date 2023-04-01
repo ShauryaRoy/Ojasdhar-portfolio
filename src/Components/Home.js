@@ -6,7 +6,7 @@ function Home() {
   
   return (
     <>
-      <div className="home-background">
+      <div className="home-body">
         <div className="name">
           <h1>
             <h1>
@@ -22,8 +22,8 @@ function Home() {
         <div className="getintouch">
           <button type="button">Get in Touch</button>
         </div>
-        
-      </div>
+        </div>
+      
       
     </>
   );

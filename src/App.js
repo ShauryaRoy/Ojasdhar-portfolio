@@ -8,11 +8,11 @@ import Background from "./Components/Background"
 import {Routes,Route } from 'react-router-dom'
 // import particlesJS from 'particles.js'
 
-
 function App() {
   return (
     <>
     <Background></Background>
+    
     <main>
       <Routes>
         <Route path = "/" exact element={<><Navbarhead/><Home/></>}/>
